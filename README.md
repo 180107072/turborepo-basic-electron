@@ -10,8 +10,8 @@ Uses:
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 ## Prior work
