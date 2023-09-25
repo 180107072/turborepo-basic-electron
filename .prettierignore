@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/*.svg
+
+package-lock.json
+
+.github
+.idea

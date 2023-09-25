@@ -1,0 +1,24 @@
+{
+  "name": "turborepo-basic",
+  "version": "0.0.0",
+  "private": true,
+  "license": "ISC",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "compile": "turbo run compile",
+    "lint": "turbo run lint",
+    "format": "npx prettier --write \"**/*.{js,mjs,cjs,ts,mts,cts,vue,json}\""
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "yarn@3.6.3"
+}

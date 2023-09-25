@@ -1,0 +1,7 @@
+{
+  "name": "@turborepo-basic/is-even",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./src/is-even.js",
+  "types": "./src/is-even.d.ts"
+}
