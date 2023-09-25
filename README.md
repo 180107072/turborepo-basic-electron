@@ -4,7 +4,6 @@ Uses:
 
 - React
 - Typescript
-- Tailwind
 - Turborepo
 - Vite (for Electron builds)
 
